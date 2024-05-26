@@ -10,5 +10,49 @@
       </card>
     </template>
 </category>
+<category>
+    <pattern>cho tôi một số câu hỏi liên quan đến chủ đề học tiếng anh</pattern>
+<template>
+        Dĩ nhiên! Dưới đây là một số câu hỏi liên quan đến việc học tiếng Anh:<br/>
+        1.Bạn đã bắt đầu học tiếng Anh từ khi nào?<br/>
+        2.Bạn học tiếng Anh để mục đích gì?<br/>
+        3.Bạn thường sử dụng phương pháp học nào để nâng cao trình độ tiếng Anh của mình?<br/>
+        4.Bạn đã gặp phải những khó khăn gì trong quá trình học tiếng Anh và làm thế nào để vượt qua chúng?<br/>
+        5.Bạn có thói quen học từ vựng và ngữ pháp tiếng Anh hàng ngày không? Nếu có, bạn thường học như thế nào?<br/>
+        6.Bạn thấy việc nghe, nói, đọc và viết quan trọng như thế nào trong việc học tiếng Anh?<br/>
+        7.Bạn có tham gia vào các lớp học tiếng Anh hay các hoạt động nhóm không? Nếu có, bạn cảm thấy như thế nào về trải nghiệm đó?<br/>
+        8.Bạn có sử dụng các ứng dụng hoặc công cụ trực tuyến để hỗ trợ việc học tiếng Anh không? Nếu có, bạn thích sử dụng loại nào nhất và tại sao?<br/>
+        9.Bạn cảm thấy tiếng Anh có khó học không so với ngôn ngữ khác mà bạn biết?<br/>
+        10.Bạn có kế hoạch gì để nâng cao trình độ tiếng Anh của mình trong tương lai?<br/>
+        Hy vọng những câu hỏi này sẽ giúp bạn tự đánh giá và phát triển hơn trong việc học tiếng Anh!<br/>
+</template>
+</category>
+<category>
+    <pattern>bạn có thể trả lời những câu hỏi trên không
+</pattern>
+    <template>
+        Tất nhiên! Dưới đây là câu trả lời của tôi cho mỗi câu hỏi:
+
+1.Tôi bắt đầu học tiếng Anh từ khi còn nhỏ, khi tiếng Anh được giảng dạy trong trường học.<br/>
+
+2.Tôi học tiếng Anh để có thể giao tiếp một cách tự tin khi đi du lịch, làm việc, và tiếp xúc với người nói tiếng Anh trong môi trường chuyên môn và xã hội.<br/>
+
+3.Phương pháp học của tôi bao gồm việc kết hợp nhiều phương tiện như sách, bài giảng trực tuyến, ứng dụng học tiếng Anh, và giao tiếp thực tế với người nói tiếng Anh.<br/>
+
+4.Trong quá trình học tiếng Anh, tôi gặp khó khăn với việc phát âm và viết đúng ngữ pháp. Tôi đã vượt qua chúng bằng cách lắng nghe nhiều và thực hành viết nói hàng ngày.<br/>
+
+5.Tôi có thói quen học từ vựng mới và ngữ pháp tiếng Anh hàng ngày thông qua việc đọc sách, xem phim, và sử dụng các ứng dụng học tiếng Anh.<br/>
+
+6.Tôi tin rằng việc phát triển cả bốn kỹ năng ngôn ngữ (nghe, nói, đọc, viết) là quan trọng để nắm vững tiếng Anh.<br/>
+
+7.Tôi tham gia vào các lớp học tiếng Anh và nhóm học để có cơ hội thực hành giao tiếp và học hỏi từ người khác.<br/>
+
+8.Tôi sử dụng các ứng dụng như Duolingo và Anki để hỗ trợ việc học tiếng Anh. Tôi thích chúng vì tính tiện lợi và tính tương tác của chúng.<br/>
+
+9.Tôi không thấy tiếng Anh khó hơn so với các ngôn ngữ khác mà tôi biết. Mỗi ngôn ngữ đều có những khía cạnh khó khăn riêng và cách tiếp cận học tập có thể khác nhau.<br/>
+
+<br/>Cảm ơn bạn vì đã tham khảo.
+    </template>
+</category>
 </aiml>
 
