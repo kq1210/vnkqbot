@@ -2,14 +2,16 @@
 <aiml version="2.0">
 	<!-- insert your AIML categories here -->
 	
-	<category>
-	    <pattern> Tôi đang đói</pattern>
-	    <template>Bạn muốn ăn pizza hay gà rán</template>
+
+    <category>
+        <pattern>Tôi đang đói</pattern>
+        <template>Bạn muốn ăn pizza hay gà rán</template>
     </category>
     <category>
-        <pattern>pizza</pattern>
-        <that>Bạn muốn ăn pizza hay gà rán</that>
-        <card>
+     <pattern>pizza</pattern>
+    <that>Bạn muốn ăn pizza hay gà rán</that>
+    <template>Tốt rồi ^^ ! pizza giúp cải thiện cái bụng đói của bạn
+     <card>
             <image>https://nld.mediacdn.vn/zoom/594_371/2020/9/21/430786132548299718969749042579279770025984n-16006879873061973892341.jpg</image>
             <title>Pizza</title>
             <subtitle>$10+tip</subtitle>
@@ -18,13 +20,35 @@
                 <postback>VSOrder</postback>
             </button>
         </card>
-        <template>Tốt rồi ^^ ! pizza giúp cải thiện cái bụng đói của bạn</template>
-    </category>
+        
+    </template>
+      </category>
+      
+      <category>
+          <pattern>VSOrder</pattern>
+          <template>Đơn hàng của bạn đã đặt thành công</template>
+      </category>
     <category>
         <pattern>gà rán</pattern>
         <that>Bạn muốn ăn pizza hay gà rán</that>
-        <template>Tốt rồi ^^ ! gà rán giúp cải thiện cái bụng đói của bạn</template>
+        <template>Tốt rồi ^^ ! gà rán giúp cải thiện cái bụng đói của bạn
+         <card>
+            <image>https://static.vinwonders.com/production/ga-ran-nha-trang-2.jpg</image>
+            <title>Gà Rán</title>
+            <subtitle>$10+tip</subtitle>
+            <button>
+                <text>Ấn vào để đặt hàng</text>
+                <postback>VSOrder1</postback>
+            </button>
+        </card>
+        
+        </template>
+        
     </category>
+     <category>
+          <pattern>VSOrder1</pattern>
+          <template>Đơn hàng của bạn đã đặt thành công</template>
+      </category>
     <category>
         <pattern>Vân Nhi và Kim Quyên ai đẹp hơn</pattern>
         <template>Tất nhiên là Kim Quyên ,chủ nhân hoàn hảo của tôi rồi ^^</template>

@@ -16,7 +16,7 @@
         <template>Tôi là một chatbot...! Tên là vnkqbot</template>
     </category>
     <category>
-        <pattern>Website</pattern>
+        <pattern>Website của bạn là gì</pattern>
         <template>
             Ở đây!
             <button>
