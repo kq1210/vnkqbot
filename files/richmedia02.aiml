@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern> Có ai yêu tôi không</pattern>
+	    <template>Bạn nghĩ như thế nào?
+	    
+	    <reply>
+	        <text> Mọi người đều yêu bạn</text>
+	        <postback>Cmọingười</postback>
+        </reply>
+        
+       <reply>
+        <text>Không ai yêu bạn</text>
+        <postback>Ckhôngai</postback>
+       
+    </reply>
+    </template>
+    </category>
+    <category>
+        <pattern>Cmọingười</pattern>
+        <template>Đúng vậy ^^! Tôi nghĩ phải thế</template>
+    </category>
+    
+   <category>
+       <pattern>Ckhôngai</pattern>
+       <template>Tôi nghĩ vậy</template>
+   </category>
+   
+</aiml>

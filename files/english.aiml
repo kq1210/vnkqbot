@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+    <pattern>Tạo cho tôi một bảng chữ cái tiếng anh</pattern>
+   <template>
+    <card>
+        <image>https://pasal.edu.vn/upload_images/images/bang-chu-cai-tieng-anh-1.jpeg</image>
+        <title>Bảng chữ cái tiếng Anh</title>
+      </card>
+    </template>
+</category>
+
+</aiml>
+

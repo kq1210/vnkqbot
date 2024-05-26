@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	<category>
+	    <pattern>Bạn là ai</pattern>
+	    <template>
+	        Oh,Yeah!
+	        <button>
+	            <text>Bạn muốn biết tôi là ai</text>
+	            <postback>Biết tôi</postback>
+            </button>
+	    </template>
+    </category>
+    <category>
+        <pattern>Biết tôi</pattern>
+        <template>Tôi là một chatbot...! Tên là vnkqbot</template>
+    </category>
+    <category>
+        <pattern>Website</pattern>
+        <template>
+            Ở đây!
+            <button>
+                <text> Đây là Website</text>
+                <url> https://home.pandorabots.com/home.html</url>
+            </button>
+        </template>
+    </category>
+</aiml>

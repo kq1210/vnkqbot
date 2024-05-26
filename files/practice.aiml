@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+	
+	<category>
+	    <pattern> Tôi đang đói</pattern>
+	    <template>Bạn muốn ăn pizza hay gà rán</template>
+    </category>
+    <category>
+        <pattern>pizza</pattern>
+        <that>Bạn muốn ăn pizza hay gà rán</that>
+        <card>
+            <image>https://nld.mediacdn.vn/zoom/594_371/2020/9/21/430786132548299718969749042579279770025984n-16006879873061973892341.jpg</image>
+            <title>Pizza</title>
+            <subtitle>$10+tip</subtitle>
+            <button>
+                <text>Ấn vào để đặt hàng</text>
+                <postback>VSOrder</postback>
+            </button>
+        </card>
+        <template>Tốt rồi ^^ ! pizza giúp cải thiện cái bụng đói của bạn</template>
+    </category>
+    <category>
+        <pattern>gà rán</pattern>
+        <that>Bạn muốn ăn pizza hay gà rán</that>
+        <template>Tốt rồi ^^ ! gà rán giúp cải thiện cái bụng đói của bạn</template>
+    </category>
+    <category>
+        <pattern>Vân Nhi và Kim Quyên ai đẹp hơn</pattern>
+        <template>Tất nhiên là Kim Quyên ,chủ nhân hoàn hảo của tôi rồi ^^</template>
+    </category>
+    <category>
+        <pattern>tại sao</pattern>
+        <template>Vì Vân Nhi mặt rất khó ở và không phải là chủ nhân của tôi</template>
+    </category>
+	<category>
+	    <pattern>hi</pattern>
+	    <template>
+	        <random>
+	            <li>Người tình của bạn đây ^^</li>
+	            <li>hello</li>
+	            <li>Tôi đã quay trở lại!</li>
+	        </random>
+	    </template>
+	</category>
+	<category>
+	    <pattern>Hello</pattern>
+	    <template><srai>hi</srai></template>
+    </category>
+	<category>
+	    <pattern> Bạn vừa nói gì thế </pattern>
+	    <template><response index="1"/></template>
+	</category>
+	<category>
+        <pattern>XIN CHÀO</pattern>
+        <template>
+            <random>
+                <li>Xin chào! Tôi có thể giúp gì cho bạn.</li>
+                <li>Chào bạn! Bạn cần tôi giúp gì không?</li>
+                <li>Xin chào! Hôm nay bạn thế nào?</li>
+                <li>Chào! Tôi có thể giúp gì cho bạn hôm nay?</li>
+            </random>
+        </template>
+    </category>
+
+    <!-- Các mẫu câu phụ sử dụng từ đồng nghĩa và từ bổ sung -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            <srai>XIN CHÀO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            <srai>XIN CHÀO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CHÀO</pattern>
+        <template>
+            <srai>XIN CHÀO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>XIN CHÀO *</pattern>
+        <template>
+            <srai>XIN CHÀO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HELLO *</pattern>
+        <template>
+            <srai>XIN CHÀO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>HI *</pattern>
+        <template>
+            <srai>XIN CHÀO</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>CHÀO *</pattern>
+        <template>
+            <srai>XIN CHÀO</srai>
+        </template>
+    </category>
+
+</aiml>
